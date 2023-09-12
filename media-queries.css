@@ -1,0 +1,100 @@
+@media screen and (max-width:991px) {
+    h3{
+        font-size: 1.2rem;
+    }
+        .nav-toggle{
+            display: block;
+            margin-right: 20px;
+        }
+        .Main-Navbar{
+            overflow: initial;
+            
+        }
+        .Nav-Links{
+            position: absolute;
+            background-color: white;
+            left: -100%;
+            top: 100%;
+            width: 100%;
+            padding-block: 40px;
+            padding-bottom: 200px;
+        }
+        .Nav-Links.active{
+             left:0;
+        }
+        .Nav-Links ul{
+            flex-direction: column;
+        }
+        .examples-card{
+            width: calc(50% - 10px);
+            height: 180px;
+        }
+        .Adsm{
+            padding-block: 35px;
+        }
+        .Cta{
+            padding-top: 30px;
+        }
+        .hv{
+            padding-right: 70px;
+        }
+        
+}
+@media screen and (max-width:767px){
+    .primary-button{
+        width:100vw;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100vw;
+        text-align: justify;
+    }
+    .features-card{
+        min-width: calc(50% - 10px);
+    }
+    .bfcon{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .bfcon2{
+        flex-direction: column;
+    }
+    .fcon{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hv{
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:479px){
+    :root{
+        --padding-inline-section:10px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .features-card{
+        min-width:100%;
+    }
+    .features-header{
+        margin-bottom: 50px;
+    }
+    .examples-card{
+        width: 100%;
+    }
+    .primary-button{
+        width: 100%;
+    }
+}
